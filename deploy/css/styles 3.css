@@ -423,7 +423,6 @@ textarea {
 }
 #hero #overlay section button {
   border: none;
-  border-radius: 10px;
   background-color: var(--yellow);
   color: var(--black);
   padding: 10px 15px;
@@ -439,13 +438,11 @@ textarea {
   #hero #overlay section button {
     padding: 20px 30px;
     font-size: 2.5rem;
-    border-radius: 9px;
   }
 }
 @media (min-width: 1024px) {
   #hero #overlay section button {
     padding: 20px 30px;
     font-size: 2.5rem;
-    border-radius: 10px;
   }
 }

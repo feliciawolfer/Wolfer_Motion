@@ -56,10 +56,11 @@
                     }
 
                 }
-            }
+            } 
 
             button {
                 border: none;
+                border-radius:10px;
                 background-color: var(--yellow);
                 color: var(--black);
                 padding: 10px 15px;
@@ -75,11 +76,13 @@
                 @include md {
                     padding: 20px 30px; 
                     font-size:rem-calc(40);
+                    border-radius:9px;
                 }
 
                 @include lg {
                     padding: 20px 30px;
                     font-size:rem-calc(40);
+                    border-radius:10px;
                 }
 
             }
