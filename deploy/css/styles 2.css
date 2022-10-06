@@ -388,9 +388,7 @@ textarea {
   color: var(--white);
   font-family: "Bebas Neue";
   font-weight: 400;
-  font-size: 1.125rem;
-  margin-top: 5px;
-  text-align: center;
+  font-size: 0.9375rem;
 }
 @media (min-width: 768px) {
   #hero #overlay section div h1 {
@@ -406,10 +404,7 @@ textarea {
   color: var(--white);
   font-family: "Bebas Neue";
   font-weight: 400;
-  font-size: 1.125rem;
-  margin-top: 15px;
-  margin-right: 10px;
-  text-align: right;
+  font-size: 0.9375rem;
 }
 @media (min-width: 768px) {
   #hero #overlay section div h4 {
@@ -425,24 +420,23 @@ textarea {
   border: none;
   background-color: var(--yellow);
   color: var(--black);
-  padding: 10px 15px;
-  font-size: 1.125rem;
+  padding: 20px 30px;
+  font-size: 1.25rem;
   font-family: "Bebas Neue";
   font-weight: 200;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   display: flex;
 }
 @media (min-width: 768px) {
   #hero #overlay section button {
     padding: 20px 30px;
-    font-size: 2.5rem;
+    font-size: 1.25rem;
   }
 }
 @media (min-width: 1024px) {
   #hero #overlay section button {
     padding: 20px 30px;
-    font-size: 2.5rem;
+    font-size: 1.25rem;
   }
 }
