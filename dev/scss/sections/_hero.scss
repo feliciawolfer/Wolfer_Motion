@@ -1,0 +1,93 @@
+#hero {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    #overlay {
+        background-color: rgba(var(--blackO), 0.50);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        section {
+
+            display: flex;
+            align-items: center;
+
+            div {
+                h1 {
+                    color: var(--white);
+                    font-family: 'Bebas Neue';
+                    font-weight: 400;
+                    font-size: rem-calc(18);
+                    margin-top: 5px;
+                    text-align: center;
+
+
+                    @include md {
+                        font-size: rem-calc(40);
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(40);
+                    }
+
+                }
+
+
+                h4 {
+                    color: var(--white);
+                    font-family: 'Bebas Neue';
+                    font-weight: 400;
+                    font-size: rem-calc(18);
+                    margin-top: 15px;
+                    margin-right: 10px;
+                    text-align: right;
+
+                    @include md {
+                        font-size: rem-calc(40);
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(40);
+                    }
+
+                }
+            }
+
+            button {
+                border: none;
+                border-radius:10px;
+                background-color: var(--yellow);
+                color: var(--black);
+                padding: 10px 15px;
+                font-size:rem-calc(18);
+                font-family: 'Bebas Neue';
+                font-weight: 200;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                display: flex;
+
+
+                @include md {
+                    padding: 20px 30px;
+                    font-size:rem-calc(40);
+                    border-radius:9px;
+                }
+
+                @include lg {
+                    padding: 20px 30px;
+                    font-size:rem-calc(40);
+                    border-radius:10px;
+                }
+
+            }
+
+
+        }
+    }
+}
