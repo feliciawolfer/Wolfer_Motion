@@ -51,12 +51,12 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/gallery\/apron img.jpg" : {
+    "\/deploy\/img\/gallery\/img apron.jpg" : {
       "ft" : 16384,
       "iS" : 1029033,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/apron img.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/img apron.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -64,12 +64,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/paint jar Img.jpg" : {
+    "\/deploy\/img\/gallery\/img paint jar.jpg" : {
       "ft" : 16384,
       "iS" : 1545801,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/paint jar Img.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/img paint jar.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -77,25 +77,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/paintbrush Img.jpg" : {
-      "ft" : 16384,
-      "iS" : 2373753,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/paintbrush Img.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/gallery\/paintbrush tins Img.jpg" : {
+    "\/deploy\/img\/gallery\/img paintbrush tins.jpg" : {
       "ft" : 16384,
       "iS" : 2994248,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/paintbrush tins Img.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/img paintbrush tins.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -103,12 +90,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/painter Img.jpg" : {
+    "\/deploy\/img\/gallery\/img painter.jpg" : {
       "ft" : 16384,
       "iS" : 1054509,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/painter Img.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/img painter.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -116,12 +103,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/portrait drawing Img.jpg" : {
+    "\/deploy\/img\/gallery\/img portrait drawing.jpg" : {
       "ft" : 16384,
       "iS" : 3106124,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/portrait drawing Img.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/img portrait drawing.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -129,12 +116,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gallery\/woman painting Img.jpg" : {
+    "\/deploy\/img\/gallery\/img woman painting.jpg" : {
       "ft" : 16384,
       "iS" : 5084779,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gallery\/woman painting Img.jpg",
+      "oAP" : "\/deploy\/img\/gallery\/img woman painting.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -152,19 +139,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/pallete Img.jpg" : {
-      "ft" : 16384,
-      "iS" : 1951162,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/pallete Img.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/hero-2\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 247748,
@@ -178,12 +152,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero-2\/paintbrush jar Img.jpg" : {
+    "\/deploy\/img\/hero-2\/img paintbrush.jpg" : {
       "ft" : 16384,
-      "iS" : 571598,
+      "iS" : 2373753,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-2\/paintbrush jar Img.jpg",
+      "oAP" : "\/deploy\/img\/hero-2\/img paintbrush.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -191,12 +165,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero-2\/pottery wheel Img.jpg" : {
+    "\/deploy\/img\/hero-2\/img pottery wheel.jpg" : {
       "ft" : 16384,
       "iS" : 4198117,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-2\/pottery wheel Img.jpg",
+      "oAP" : "\/deploy\/img\/hero-2\/img pottery wheel.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -210,6 +184,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/img paintbrush jar.jpg" : {
+      "ft" : 16384,
+      "iS" : 571598,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/img paintbrush jar.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/img pallete.jpg" : {
+      "ft" : 16384,
+      "iS" : 1951162,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/img pallete.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -450,6 +450,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
