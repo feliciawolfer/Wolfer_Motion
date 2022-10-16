@@ -17,21 +17,17 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
-    "\/build\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/css\/styles 2-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/build\/.gitignore",
-      "oF" : 0
-    },
-    "\/build\/build\/.gitignore 2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/build\/.gitignore 2",
-      "oF" : 0
+      "oAP" : "\/deploy\/css\/styles 2-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/deploy\/css\/styles 2.css" : {
       "aP" : 1,
@@ -42,6 +38,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/css\/styles 2-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/css\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -65,7 +73,7 @@
       "oAP" : "\/deploy\/img\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -78,13 +86,13 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/deploy\/js\/scripts-min 2.js" : {
+    "\/deploy\/js\/scripts-min-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min 2-min.js",
+      "oAP" : "\/deploy\/js\/scripts-min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -156,6 +164,14 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -163,6 +179,17 @@
       "oA" : 0,
       "oAP" : "\/dev\/index.html",
       "oF" : 0
+    },
+    "\/dev\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -490,6 +517,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -527,6 +566,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
+    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -559,7 +606,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 687334455.08679497
+    "lastBuiltDate" : 687641064.9131
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

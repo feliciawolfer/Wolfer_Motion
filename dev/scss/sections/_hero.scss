@@ -87,7 +87,13 @@
 
             }
 
-
+            form{
+                input{
+                    border: none;
+                    padding: 10px;
+                    box-sizing: boarder-box;
+                }
+            }
         }
     }
 }
