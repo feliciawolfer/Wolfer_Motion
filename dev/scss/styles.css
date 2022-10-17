@@ -18,10 +18,8 @@ html {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -56,12 +54,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -69,10 +64,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: 'Bebas Neue';
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -89,12 +82,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -112,10 +102,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: 'Bebas Neue';
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -165,14 +153,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Bebas Neue';
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -180,8 +164,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -190,8 +173,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -240,18 +222,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -274,10 +250,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -293,10 +267,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -311,10 +283,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -364,7 +334,7 @@ body ul li {
     Typography
 ============= */
 body {
-  font-family: 'Bebas Neue';
+  font-family: "Comfortaa", cursive;
 }
 
 h1, h2, h3, h4, h5 {
@@ -423,7 +393,7 @@ textarea {
 #nav-container ul li a:link,
 #nav-container ul li a:visited {
   color: #fff;
-  font-family: 'Bebas Neue';
+  font-family: "Comfortaa", cursive;
   padding: 0 20px;
   text-decoration: none;
   transition: 0.25s;
@@ -456,7 +426,7 @@ textarea {
     Header
 ============= */
 header {
-  background-color: #a2c3a6;
+  background-color: #f4a9ae;
   left: 0;
   position: fixed;
   top: 0;
@@ -479,7 +449,7 @@ header > div #button-container {
   text-align: right;
 }
 header > div #button-container button {
-  background-color: #a2c3a6;
+  background-color: #F8C832;
   border-radius: 23px;
   color: #000;
   display: inline-block;
@@ -491,7 +461,7 @@ header > div #button-container button {
 }
 header > div #button-container button:hover {
   background-color: #000;
-  color: #a2c3a6;
+  color: #fff;
 }
 header > div #burger-container {
   align-items: center;
@@ -516,7 +486,7 @@ header > div #nav-container {
 }
 @media (min-width: 1024px) {
   header > div #nav-container {
-    background-color: #a2c3a6;
+    background-color: #fff;
     display: block !important;
   }
 }
@@ -525,7 +495,7 @@ header > div #nav-container {
     Footer
 ============= */
 footer {
-  background-color:  #a2c3a6;
+  background-color: #f4a9ae;
   display: grid;
   grid-template-areas: ". footer .";
   grid-template-columns: 10px auto 10px;
@@ -565,7 +535,7 @@ footer > div ul li a:visited:active {
     Hero 
 ============= */
 #hero {
-  background-image: url("../img/hero/pallete.jpg");
+  background-image: url("../img/hero/hero.jpg");
   background-position: center;
   background-size: cover;
   height: 360px;
@@ -616,7 +586,7 @@ footer > div ul li a:visited:active {
 }
 #history > div #history-first > div h1 {
   color: #F8C832;
-  font-family: 'Bebas Neue';
+  font-family: "Comfortaa", cursive;
   font-size: 3rem;
   font-weight: 700;
   line-height: 2.875rem;
@@ -776,7 +746,7 @@ footer > div ul li a:visited:active {
   transition: 0.25s;
 }
 #skills > div #skills-content > div h1 {
-  font-family: 'Bebas Neue';
+  font-family: "Comfortaa", cursive;
   font-size: 1.3125rem;
   line-height: 1.625rem;
   margin-bottom: 35px;
@@ -894,11 +864,11 @@ footer > div ul li a:visited:active {
   background-size: cover;
 }
 #skynet > div ul #gallery-1 {
-  background-image: url("../img/gallery/apron.jpg");
+  background-image: url("../img/skynet/gallery-1.jpg");
   grid-area: gallery-1;
 }
 #skynet > div ul #gallery-2 {
-  background-image: url("../img/gallery/paint-jar.jpg");
+  background-image: url("../img/skynet/gallery-2.jpg");
 }
 @media (min-width: 1024px) {
   #skynet > div ul #gallery-2 {
@@ -906,12 +876,12 @@ footer > div ul li a:visited:active {
   }
 }
 #skynet > div ul #gallery-3 {
-  background-image: url("../img/gallery/paintbrush-tins.jpg");
+  background-image: url("../img/skynet/gallery-3.jpg");
   background-position: center top;
   grid-area: gallery-3;
 }
 #skynet > div ul #gallery-4 {
-  background-image: url("../img/gallery/painter.jpg");
+  background-image: url("../img/skynet/gallery-4.jpg");
 }
 @media (min-width: 1024px) {
   #skynet > div ul #gallery-4 {
@@ -919,7 +889,7 @@ footer > div ul li a:visited:active {
   }
 }
 #skynet > div ul #gallery-5 {
-  background-image: url("../img/gallery/portrait-drawing.jpg");
+  background-image: url("../img/skynet/gallery-5.jpg");
 }
 @media (min-width: 768px) {
   #skynet > div ul #gallery-5 {
@@ -927,14 +897,14 @@ footer > div ul li a:visited:active {
   }
 }
 #skynet > div ul #gallery-6 {
-  background-image: url("../img/gallery/woman-painting.jpg");
+  background-image: url("../img/skynet/gallery-6.jpg");
   grid-area: gallery-6;
 }
 #skynet > div ul #gallery-7 {
   align-items: center;
   color: #F8C832;
   display: flex;
-  font-family: 'Bebas Neue';
+  font-family: "Pacifico", cursive;
   grid-area: gallery-7;
   justify-content: center;
 }
