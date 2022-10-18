@@ -52,12 +52,12 @@
             }
     
             #gallery-1 {
-                background-image: url("../img/skynet/gallery-1.jpg");
+                background-image: url("../img/gallery/apron.jpg");
                 grid-area: gallery-1;
             }
     
             #gallery-2 {
-                background-image: url("../img/skynet/gallery-2.jpg");
+                background-image: url("../img/gallery/paint-jar.jpg");
     
                 @include lg {
                     grid-area: gallery-2;
@@ -65,13 +65,13 @@
             }
     
             #gallery-3 {
-                background-image: url("../img/skynet/gallery-3.jpg");
+                background-image: url("../img/gallery/paintbrush-tins.jpg");
                 background-position: center top;
                 grid-area: gallery-3;
             }
     
             #gallery-4 {
-                background-image: url("../img/skynet/gallery-4.jpg");
+                background-image: url("../img/gallery/painter.jpg");
     
                 @include lg {
                     grid-area: gallery-4;
@@ -79,7 +79,7 @@
             }
     
             #gallery-5 {
-                background-image: url("../img/skynet/gallery-5.jpg");
+                background-image: url("../img/gallery/portrait-drawing.jpg");
     
                 @include md {
                     grid-area: gallery-5;
@@ -87,13 +87,13 @@
             }
     
             #gallery-6 {
-                background-image: url("../img/skynet/gallery-6.jpg");
+                background-image: url("../img/gallery/woman-painting.jpg");
                 grid-area: gallery-6;
             }
     
             #gallery-7 {
                 align-items: center;
-                color: $yellow;
+                color: $pink;
                 display: flex;
                 font-family: 'Pacifico', cursive;
                 grid-area: gallery-7;

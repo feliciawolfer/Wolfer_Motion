@@ -1,7 +1,5 @@
 import $ from "jquery";
-import gsap from "gsap";
-
-gsap.to("#gallery-1", {duration:1, x:400, rotation:360})
+// import gsap from "gsap";
 
 let $nav = $('nav[data-nav]');
 let isVisible = false;

@@ -51,6 +51,84 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/gallery\/apron.jpg" : {
+      "ft" : 16384,
+      "iS" : 1029033,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/apron.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/paint-jar.jpg" : {
+      "ft" : 16384,
+      "iS" : 1545801,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/paint-jar.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/paintbrush-tins.jpg" : {
+      "ft" : 16384,
+      "iS" : 2994248,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/paintbrush-tins.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/painter.jpg" : {
+      "ft" : 16384,
+      "iS" : 1054509,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/painter.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/portrait-drawing.jpg" : {
+      "ft" : 16384,
+      "iS" : 3106124,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/portrait-drawing.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gallery\/woman-painting.jpg" : {
+      "ft" : 16384,
+      "iS" : 5084779,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gallery\/woman-painting.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/header\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -74,25 +152,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/hero.jpg" : {
+    "\/deploy\/img\/hero\/palette.jpg" : {
       "ft" : 16384,
-      "iS" : 338321,
+      "iS" : 1951162,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/history\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 15971,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/history\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/palette.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -212,6 +277,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/design\/structure-tags.sketch" : {
       "cB" : 0,
       "ft" : 8192,
@@ -234,6 +310,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/history.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/history.html",
       "oF" : 0
     },
     "\/dev\/content\/history.kit" : {
