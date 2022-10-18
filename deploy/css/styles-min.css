@@ -480,11 +480,11 @@ header > div #button-container {
   text-align: right;
 }
 header > div #button-container button {
-  background-color: #a2c3a6;
-  border-radius: 23px;
+  background-color: pink;
+  border-radius: 5px;
   color: #000;
   display: inline-block;
-  font-size: 1.125rem;
+  font-size: 3rem;
   font-weight: 700;
   padding: 10px 20px;
   border: none;
@@ -616,7 +616,7 @@ footer > div ul li a:visited:active {
   }
 }
 #history > div #history-first > div h1 {
-  color: #F8C832;
+  color: pink;
   font-family: 'Bebas Neue';
   font-size: 3rem;
   font-weight: 700;
@@ -813,7 +813,7 @@ footer > div ul li a:visited:active {
   width: 100%;
 }
 #skills > div #skills-content > div ul li .bottom > div {
-  background-color: #F8C832;
+  background-color: pink;
   height: 9px;
 }
 #skills > div #skills-content > div ul #emotion .yellow-bar {
@@ -933,7 +933,7 @@ footer > div ul li a:visited:active {
 }
 #skynet > div ul #gallery-7 {
   align-items: center;
-  color: #F8C832;
+  color: pink;
   display: flex;
   font-family: 'Bebas Neue';
   grid-area: gallery-7;
