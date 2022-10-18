@@ -334,7 +334,7 @@ body ul li {
     Typography
 ============= */
 body {
-  font-family: "Comfortaa", cursive;
+  font-family: "Bebas Neue";
 }
 
 h1, h2, h3, h4, h5 {
@@ -393,7 +393,7 @@ textarea {
 #nav-container ul li a:link,
 #nav-container ul li a:visited {
   color: #fff;
-  font-family: "Comfortaa", cursive;
+  font-family: "Bebas Neue";
   padding: 0 20px;
   text-decoration: none;
   transition: 0.25s;
@@ -586,7 +586,7 @@ footer > div ul li a:visited:active {
 }
 #history > div #history-first > div h1 {
   color: #f4b2cd;
-  font-family: "Comfortaa", cursive;
+  font-family: "Bebas Neue";
   font-size: 3rem;
   font-weight: 700;
   line-height: 2.875rem;
@@ -746,7 +746,7 @@ footer > div ul li a:visited:active {
   transition: 0.25s;
 }
 #skills > div #skills-content > div h1 {
-  font-family: "Comfortaa", cursive;
+  font-family: "Bebas Neue";
   font-size: 1.3125rem;
   line-height: 1.625rem;
   margin-bottom: 35px;
@@ -904,7 +904,7 @@ footer > div ul li a:visited:active {
   align-items: center;
   color: #f4b2cd;
   display: flex;
-  font-family: "Pacifico", cursive;
+  font-family: "Bebas Neue";
   grid-area: gallery-7;
   justify-content: center;
 }

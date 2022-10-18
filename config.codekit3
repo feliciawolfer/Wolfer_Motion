@@ -152,6 +152,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/hero-2\/pottery-wheel.jpg" : {
+      "ft" : 16384,
+      "iS" : 4198117,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero-2\/pottery-wheel.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero\/palette.jpg" : {
       "ft" : 16384,
       "iS" : 1951162,
