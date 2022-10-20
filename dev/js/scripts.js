@@ -1,23 +1,98 @@
-import $ from "jquery";
-import gsap from "gsap";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.to("#gallery-1", {duration:0, alpha: 0});
-gsap.to("#gallery-1", {duration:1, alpha: 1});
+gsap.registerPlugin(ScrollTrigger);
 
-gsap.to("#gallery-2", {duration:0, alpha: 0});
-gsap.to("#gallery-2", {duration:1, alpha: 1});
+gsap.to("#gallery-1", {
+    duration: 0,
+    alpha: 0
+});
+gsap.to("#gallery-1", {
+    duration: 1,
+    alpha: 1,
+    scrollTrigger: { trigger: "#gallery-1", markers: true, scrub:true, end: "top center", start:"top 80%"}
+});
 
-gsap.to("#gallery-3", {duration:0, alpha: 0});
-gsap.to("#gallery-3", {duration:1, alpha: 1});
+gsap.to("#gallery-2", {
+    duration: 0,
+    alpha: 0
+});
+gsap.to("#gallery-2", {
+    duration: 1,
+    alpha: 1,
+    scrollTrigger: { trigger: "#gallery-2", markers: true, scrub:true, end: "top center", start:"top 80%"}
+});
 
-gsap.to("#gallery-4", {duration:0, alpha: 0});
-gsap.to("#gallery-4", {duration:1, alpha: 1});
+gsap.to("#gallery-3", {
+    duration: 0,
+    alpha: 0
+});
+gsap.to("#gallery-3", {
+    duration: 2,
+    alpha: 1,
+    scrollTrigger: { trigger: "#gallery-3", markers: true, scrub:true, end: "top center", start:"top 80%"}
+});
 
-gsap.to("#gallery-5", {duration:0, alpha: 0});
-gsap.to("#gallery-5", {duration:1, alpha: 1});
+gsap.to("#gallery-4", {
+    duration: 0,
+    alpha: 0
+});
+gsap.to("#gallery-4", {
+    duration: 1,
+    alpha: 1,
+    scrollTrigger: { trigger: "#gallery-4", markers: true, scrub:true, end: "top center", start:"top 80%"}
+});
 
-gsap.to("#gallery-6", {duration:0, alpha: 0});
-gsap.to("#gallery-6", {duration:1, alpha: 1});
+gsap.to("#gallery-5", {
+    duration: 0,
+    alpha: 0
+});
+gsap.to("#gallery-5", {
+    duration: 1,
+    alpha: 1,
+    scrollTrigger: { trigger: "#gallery-5", markers: true, scrub:true, end: "top center", start:"top 80%"}
+});
+
+gsap.to("#gallery-6", {
+    duration: 0,
+    alpha: 0
+});
+gsap.to("#gallery-6", {
+    duration: 1,
+    alpha: 1,
+    scrollTrigger: { trigger: "#gallery-6", markers: true, scrub:true, end: "top center", start:"top 80%"}
+});
+
+gsap.to("#gallery-7", {
+    duration: 0,
+    alpha: 0
+});
+gsap.to("#gallery-7", {
+    duration: 1,
+    alpha: 1,
+    scrollTrigger: { trigger: "#gallery-7", markers: true, scrub:true, end: "top center", start:"top 80%"}
+});
+
+// var galleryTl = gsap.timeline();
+
+
+// galleryTl.to("#gallery-1", {duration:0, alpha: 0})
+//     .to("#gallery-1", {duration:1, alpha: 1})
+
+//     .to("#gallery-2", {duration:0, alpha: 0})
+//     .to("#gallery-2", {duration:1, alpha: 1},"-=1")
+
+//     .to("#gallery-3", {duration:0, alpha: 0})
+//     .to("#gallery-3", {duration:2, alpha: 1},"-=1")
+
+//     .to("#gallery-4", {duration:0, alpha: 0})
+//     .to("#gallery-4", {duration:1, alpha: 1},"-=1")
+
+//     .to("#gallery-5", {duration:0, alpha: 0})
+//     .to("#gallery-5", {duration:1, alpha: 1},"-=1")
+
+//     .to("#gallery-6", {duration:0, alpha: 0})
+//     .to("#gallery-6", {duration:1, alpha: 1},"-=1");
 
 
 let $nav = $('nav[data-nav]');
