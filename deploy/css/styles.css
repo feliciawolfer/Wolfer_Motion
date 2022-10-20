@@ -799,18 +799,49 @@ footer > div ul li a:visited:active {
     Hero 2
 ============= */
 #hero-2 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero-2 .";
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 @media (min-width: 1200px) {
   #hero-2 {
     grid-template-columns: auto 1200px auto;
   }
 }
-#hero-2 img {
-  grid-area: hero-2;
+#hero-2 > div {
+  text-align: center;
+  color: #f4b2cd;
+}
+#hero-2 > div h1 {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+}
+@media (min-width: 768px) {
+  #hero-2 > div h1 {
+    font-size: 120px;
+  }
+}
+#hero-2 > div h2 {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  line-height: 20px;
+}
+@media (min-width: 768px) {
+  #hero-2 > div h2 {
+    font-size: 80px;
+    line-height: 20px;
+  }
+}
+#hero-2 #bg-img {
+  background-image: url("../img/hero-2/pottery-wheel.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
   width: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 /* =============
@@ -909,11 +940,5 @@ footer > div ul li a:visited:active {
   justify-content: center;
 }
 #skynet > div ul #gallery-7 h1 {
-  font-size: 2.6875rem;
-  font-weight: 400;
-}
-@media (min-width: 768px) {
-  #skynet > div ul #gallery-7 h1 {
-    font-size: 2.875rem;
-  }
+  font-size: 60px;
 }

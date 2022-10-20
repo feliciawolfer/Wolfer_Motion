@@ -100,12 +100,11 @@
                 justify-content: center;
     
                 h1 {
-                    font-size: rem-calc(43);
-                    font-weight: 400;
+                    font-size: 60px;
     
-                    @include md {
-                        font-size: rem-calc(46);
-                    }
+                    // @include md {
+                    //     font-size:70px;
+                    // }
                 }
             }
         }
