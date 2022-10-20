@@ -588,14 +588,13 @@ footer > div ul li a:visited:active {
   color: #f4b2cd;
   font-family: "Bebas Neue";
   font-size: 3rem;
-  font-weight: 700;
-  line-height: 2.875rem;
+  line-height: 0.625rem;
   margin: 40px 0 30px;
 }
 @media (min-width: 768px) {
   #history > div #history-first > div h1 {
     font-size: 3.4375rem;
-    line-height: 3.5rem;
+    line-height: 1.25rem;
     margin-bottom: 34px;
   }
 }
@@ -604,83 +603,85 @@ footer > div ul li a:visited:active {
     font-size: 4.125rem;
   }
 }
-#history > div #history-first > div h1 span {
-  display: block;
-  font-size: 1.9375rem;
+#history > div #history-first > div h4 {
+  font-size: 1.25rem;
+  color: #f4b2cd;
 }
 @media (min-width: 768px) {
-  #history > div #history-first > div h1 span {
-    font-size: 2.625rem;
+  #history > div #history-first > div h4 {
+    font-size: 1.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 34px;
+    margin-top: 50px;
   }
 }
 @media (min-width: 1024px) {
-  #history > div #history-first > div h1 span {
-    font-size: 3.375rem;
+  #history > div #history-first > div h4 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
   }
 }
-#history > div #history-first > div h4 {
-  font-size: 1.0625rem;
-  font-weight: 400;
-}
 @media (min-width: 1024px) {
-  #history > div #history-middle {
+  #history #history-middle {
     display: grid;
     grid-template-areas: ". history-middle .";
-    grid-template-columns: 10% auto 10%;
+    grid-template-columns: auto;
   }
 }
 @media (min-width: 1024px) {
-  #history > div #history-middle > div {
+  #history #history-middle > div {
     grid-area: history-middle;
   }
 }
-#history > div #history-middle > div p {
-  font-size: 1.125rem;
-  font-weight: 600;
-  line-height: 1.375rem;
+#history #history-middle > div p {
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
   margin-top: 25px;
   text-align: justify;
 }
 @media (min-width: 768px) {
-  #history > div #history-middle > div p {
+  #history #history-middle > div p {
     line-height: 1.625rem;
     margin-top: 34px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
 @media (min-width: 768px) {
-  #history > div #history-last {
+  #history #history-last {
     display: grid;
     grid-template-areas: ". history-last .";
     grid-template-columns: 10% auto 10%;
   }
 }
 @media (min-width: 1024px) {
-  #history > div #history-last {
+  #history #history-last {
     grid-template-columns: 15% auto 15%;
   }
 }
 @media (min-width: 768px) {
-  #history > div #history-last > div {
+  #history #history-last > div {
     grid-area: history-last;
   }
 }
-#history > div #history-last > div h3 {
-  font-size: 1rem;
+#history #history-last > div h3 {
+  font-size: 1.25rem;
   margin-top: 25px;
 }
 @media (min-width: 768px) {
-  #history > div #history-last > div h3 {
-    margin-top: 80px;
+  #history #history-last > div h3 {
+    margin-top: 40px;
   }
 }
 @media (min-width: 1024px) {
-  #history > div #history-last > div h3 {
-    margin-top: 100px;
+  #history #history-last > div h3 {
+    margin-top: 40px;
   }
 }
-#history > div #history-last > div p {
+#history #history-last > div p {
   line-height: 1.375rem;
   text-align: justify;
+  margin-top: 15px;
 }
 
 /* =============

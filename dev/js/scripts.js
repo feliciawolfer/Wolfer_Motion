@@ -3,38 +3,89 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.from("#spaces", {
+    duration: 1,
+    alpha: 0,
+    x: -200,
+    scrollTrigger: {
+        trigger: "#spaces",
+        // markers: true,
+        scrub: true,
+        end: "bottom, top 50%",
+        start: "top, center"
+    }
+});
+
+gsap.from("#people", {
+    duration: 1,
+    scale: 2.5,
+    scrollTrigger: {
+        trigger: "#people",
+        // markers: true,
+        scrub: true,
+        end: "bottom",
+        start: "bottom, center"
+    }
+});
+
+gsap.from("#subhead", {
+    duration: 1,
+    alpha: 0,
+    // scale: -2,
+    y: -50,
+    scrollTrigger: {
+        trigger: "#subhead",
+        // markers: true,
+        scrub: true,
+        end: "top",
+        start: "50%, 60%"
+    }
+});
+
+// gsap.from("#history-middle", {
+
+//     scrollTrigger: {
+//         trigger: "#history-middle",
+//         markers: true,
+//         scrub: true,
+//         end: "center, 70%",
+//         start: "80%, 99%"
+//     }
+// });
+
 gsap.to("#hero-2", {
     duration: 5,
-    clipPath: "inset(50% 0)",
-    scrollTrigger: {
-        trigger: "#hero-2",
-        markers: true,
-        scrub: true,
-        end: "bottom center",
-        start: "top 10%"
-    }
-})
-gsap.to("#hero-2 h1", {
-    duration: 5,
-    scale:3,
     alpha:0,
     clipPath: "inset(50% 0)",
     scrollTrigger: {
         trigger: "#hero-2",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "bottom center",
         start: "top 10%"
     }
 });
-gsap.to("#hero-2", {
+gsap.to("#hero-2 h1", {
     duration: 5,
-    scale:2,
-    alpha:0,
-    clipPath: "inset(50% 0)",
+    scale:3,
+    alpha:1,
+    // clipPath: "inset(50% 0)",
     scrollTrigger: {
         trigger: "#hero-2",
-        markers: true,
+        // markers: true,
+        scrub: true,
+        end: "bottom center",
+        start: "top 10%"
+    }
+});
+gsap.to("#hero-2 h2", {
+    duration: 5,
+    scale:2,
+    alpha:1,
+    // clipPath: "inset(50% 0)",
+    scrollTrigger: {
+        trigger: "#hero-2",
+        // markers: true,
         scrub: true,
         end: "bottom center",
         start: "top 10%"
@@ -57,7 +108,7 @@ gsap.to("#gallery-1", {
     alpha: 1,
     scrollTrigger: {
         trigger: "#gallery-1",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "top center",
         start: "top 80%"
@@ -73,7 +124,7 @@ gsap.to("#gallery-2", {
     alpha: 1,
     scrollTrigger: {
         trigger: "#gallery-2",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "top center",
         start: "top 80%"
@@ -89,7 +140,7 @@ gsap.to("#gallery-3", {
     alpha: 1,
     scrollTrigger: {
         trigger: "#gallery-3",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "top center",
         start: "top 80%"
@@ -105,7 +156,7 @@ gsap.to("#gallery-4", {
     alpha: 1,
     scrollTrigger: {
         trigger: "#gallery-4",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "top center",
         start: "top 80%"
@@ -121,7 +172,7 @@ gsap.to("#gallery-5", {
     alpha: 1,
     scrollTrigger: {
         trigger: "#gallery-5",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "top center",
         start: "top 80%"
@@ -137,7 +188,7 @@ gsap.to("#gallery-6", {
     alpha: 1,
     scrollTrigger: {
         trigger: "#gallery-6",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "top center",
         start: "top 80%"
@@ -153,7 +204,7 @@ gsap.to("#gallery-7", {
     alpha: 1,
     scrollTrigger: {
         trigger: "#gallery-7",
-        markers: true,
+        // markers: true,
         scrub: true,
         end: "top center",
         start: "top 80%"
