@@ -322,6 +322,9 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: rgba(233, 193, 50, 0.1764705882);
+}
 body ul {
   margin: 0;
   padding: 0;
@@ -586,7 +589,7 @@ footer > div ul li a:visited:active {
   }
 }
 #history > div #history-first > div h1 {
-  color: #f4b2cd;
+  color: #3d684c;
   font-family: "Bebas Neue";
   font-size: 3rem;
   line-height: 0.625rem;
@@ -606,7 +609,7 @@ footer > div ul li a:visited:active {
 }
 #history > div #history-first > div h4 {
   font-size: 1.25rem;
-  color: #f4b2cd;
+  color: #3d684c;
 }
 @media (min-width: 768px) {
   #history > div #history-first > div h4 {
@@ -814,7 +817,7 @@ footer > div ul li a:visited:active {
 }
 #hero-2 > div {
   text-align: center;
-  color: #f4b2cd;
+  color: #3d684c;
 }
 #hero-2 > div h1 {
   font-family: "Bebas Neue";
@@ -935,7 +938,7 @@ footer > div ul li a:visited:active {
 }
 #skynet > div ul #gallery-7 {
   align-items: center;
-  color: #f4b2cd;
+  color: #3d684c;
   display: flex;
   font-family: "Bebas Neue";
   grid-area: gallery-7;
