@@ -323,7 +323,7 @@ template {
     Base
 ============= */
 body {
-  background-color: rgba(233, 129, 50, 0.1764705882);
+  background-color: rgba(233, 193, 50, 0.1764705882);
 }
 body ul {
   margin: 0;
@@ -331,10 +331,6 @@ body ul {
 }
 body ul li {
   list-style: none;
-}
-
-body {
-  background: linear-gradient(to bottom, #d6cd8b, #e4c6d9, #588264);
 }
 
 /* =============
@@ -593,7 +589,7 @@ footer > div ul li a:visited:active {
   }
 }
 #history > div #history-first > div h1 {
-  color: #1f3527;
+  color: #3d684c;
   font-family: "Bebas Neue";
   font-size: 3rem;
   line-height: 0.625rem;
@@ -613,7 +609,7 @@ footer > div ul li a:visited:active {
 }
 #history > div #history-first > div h4 {
   font-size: 1.25rem;
-  color: #1f3527;
+  color: #3d684c;
 }
 @media (min-width: 768px) {
   #history > div #history-first > div h4 {
@@ -693,6 +689,118 @@ footer > div ul li a:visited:active {
 }
 
 /* =============
+    Skills
+============= */
+@media (min-width: 1200px) {
+  #skills {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". skills-container .";
+  }
+}
+@media (min-width: 1024px) {
+  #skills > div {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+}
+@media (min-width: 1200px) {
+  #skills > div {
+    grid-area: skills-container;
+  }
+}
+#skills > div aside {
+  background-image: url("../img/skills/robot.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 380px;
+}
+@media (min-width: 768px) {
+  #skills > div aside {
+    height: 476px;
+  }
+}
+@media (min-width: 1024px) {
+  #skills > div aside {
+    height: auto;
+  }
+}
+#skills > div #skills-content {
+  background-color: #222222;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". skills .";
+  padding: 60px 0;
+  grid-template-columns: 10px auto 10px;
+  padding: 60px 0;
+}
+@media (min-width: 768px) {
+  #skills > div #skills-content {
+    grid-template-columns: 10% auto 10%;
+  }
+}
+@media (min-width: 1024px) {
+  #skills > div #skills-content {
+    padding: 25px 0 44px;
+  }
+}
+#skills > div #skills-content > div {
+  grid-area: skills;
+  text-decoration: none;
+  transition: 0.25s;
+}
+#skills > div #skills-content > div h1 {
+  font-family: "Bebas Neue";
+  font-size: 1.3125rem;
+  line-height: 1.625rem;
+  margin-bottom: 35px;
+}
+#skills > div #skills-content > div p {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  display: inline-block;
+}
+#skills > div #skills-content > div ul li {
+  margin-top: 46px;
+}
+@media (min-width: 768px) {
+  #skills > div #skills-content > div ul li {
+    margin-top: 51px;
+  }
+}
+#skills > div #skills-content > div ul li .top {
+  display: flex;
+}
+#skills > div #skills-content > div ul li .top h5 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+#skills > div #skills-content > div ul li .top h4 {
+  font-size: 1.125rem;
+  margin-left: auto;
+}
+#skills > div #skills-content > div ul li .bottom {
+  background-color: #000;
+  height: 9px;
+  margin-top: 5px;
+  width: 100%;
+}
+#skills > div #skills-content > div ul li .bottom > div {
+  background-color: #f4b2cd;
+  height: 9px;
+}
+#skills > div #skills-content > div ul #emotion .yellow-bar {
+  width: 64%;
+}
+#skills > div #skills-content > div ul #learning .yellow-bar {
+  width: 90%;
+}
+#skills > div #skills-content > div ul #math .yellow-bar {
+  width: 95%;
+}
+
+/* =============
     Hero 2
 ============= */
 #hero-2 {
@@ -709,7 +817,7 @@ footer > div ul li a:visited:active {
 }
 #hero-2 > div {
   text-align: center;
-  color: #1f3527;
+  color: #3d684c;
 }
 #hero-2 > div h1 {
   font-family: "Bebas Neue";
@@ -830,7 +938,7 @@ footer > div ul li a:visited:active {
 }
 #skynet > div ul #gallery-7 {
   align-items: center;
-  color: #1f3527;
+  color: #3d684c;
   display: flex;
   font-family: "Bebas Neue";
   grid-area: gallery-7;
