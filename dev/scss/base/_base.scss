@@ -12,15 +12,13 @@ body{
             list-style: none;
         }
     }
+    
+    background-color: linear-gradient(to bottom,
+    desaturate(lighten(#db38b5, 30%), 30%),
+    desaturate(lighten(#01b3e3, 30%), 30%),
+    desaturate(lighten(#25ce7b, 30%), 30%),
+    desaturate(lighten(#fdc741, 30%), 30%),
+    desaturate(lighten(#ff6b01, 30%), 30%),
+    desaturate(lighten(#fc4236, 30%), 30%)
+);
 }
-
-
-// background: linear-gradient(to bottom,
-// desaturate(lighten(#db38b5, 30%), 30%),
-// desaturate(lighten(#01b3e3, 30%), 30%),
-// desaturate(lighten(#25ce7b, 30%), 30%),
-// desaturate(lighten(#fdc741, 30%), 30%),
-// desaturate(lighten(#ff6b01, 30%), 30%),
-// desaturate(lighten(#fc4236, 30%), 30%)
-// );
-// }
