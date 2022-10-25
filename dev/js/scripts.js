@@ -3,50 +3,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// gsap.from("#spaces", {
-//     duration: 1,
-//     alpha: 0,
-//     x: -200,
-//     scrollTrigger: {
-//         trigger: "#spaces",
-//         // markers: true,
-//         scrub: true,
-//         end: "bottom, top 50%",
-//         start: "top, center"
-//     }
-// });
-
-// gsap.from("#people", {
-//     duration: 1,
-//     scale: 2.5,
-//     scrollTrigger: {
-//         trigger: "#people",
-//         // markers: true,
-//         scrub: true,
-//         end: "bottom",
-//         start: "bottom, center"
-//     }
-// });
-
-// gsap.from("#subhead", {
-//     duration: 1,
-//     alpha: 0,
-//     // scale: -2,
-//     y: -50,
-//     scrollTrigger: {
-//         trigger: "#subhead",
-//         // markers: true,
-//         scrub: true,
-//         end: "top",
-//         start: "50%, 60%"
-//     }
-// });
-
 function heroMotion(){
-    var tl = gsap.timeline({scrollTrigger:{trigger:"#spaces", markers:false, scrub:true, end: "bottom, top 50%", start: "top, center"}})
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#spaces", markers:false, scrub:true, end: "bottom 45%", start: "top 60%"}})
         tl.from("#spaces", { duration:1, alpha:0, x:-200})
-        .from("#people", { duration:1,scale:2.5})
-        .from("#subhead", {duration:1, alpha:0, scale:-2, y:-50})
+        .from("#people", { duration:1,scale:2.5},"-=1")
+        .from("#subhead", {duration:1, alpha:0, y:-50},"-=1")
     return tl;
 }
 
@@ -60,7 +21,7 @@ function hero2Motion(){
 }
 
 function galleryMotion(){
-    var tl= gsap.timeline({scrollTrigger:{trigger:"#gallery-1", scrub:true, markers:true, end: "center 20%", start: "center 90%"}});
+    var tl= gsap.timeline({scrollTrigger:{trigger:"#gallery-1", scrub:true, markers:false, end: "center 20%", start: "center 90%"}});
      tl.from("#gallery-1", {duration: 3, clipPath: "circle(100%)",alpha: 0 })
        .from("#gallery-5", {duration: 3, clipPath: "circle(100%)",alpha: 0 },"-=1.5")
        .from("#gallery-2", {duration: 3, clipPath: "circle(100%)",alpha: 0 },"-=1.5")

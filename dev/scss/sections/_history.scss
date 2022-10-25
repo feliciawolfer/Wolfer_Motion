@@ -36,9 +36,9 @@
                 h1 {
                     color: $darkgreen;
                     font-family: 'Bebas Neue';
-                    font-size: rem-calc(48);
-                    line-height: rem-calc(10);
-                    margin: 40px 0 30px;
+                    font-size: rem-calc(30);
+                    line-height: rem-calc(5);
+                    margin: 10px 0 30px;
 
                     @include md {
                         font-size: rem-calc(55);
@@ -48,6 +48,8 @@
 
                     @include lg {
                         font-size: rem-calc(66);
+                        line-height: rem-calc(15);
+                        margin: 40px 0 40px;
                     }
                 }
 

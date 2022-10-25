@@ -591,9 +591,9 @@ footer > div ul li a:visited:active {
 #history > div #history-first > div h1 {
   color: #3d684c;
   font-family: "Bebas Neue";
-  font-size: 3rem;
-  line-height: 0.625rem;
-  margin: 40px 0 30px;
+  font-size: 1.875rem;
+  line-height: 0.3125rem;
+  margin: 10px 0 30px;
 }
 @media (min-width: 768px) {
   #history > div #history-first > div h1 {
@@ -605,6 +605,8 @@ footer > div ul li a:visited:active {
 @media (min-width: 1024px) {
   #history > div #history-first > div h1 {
     font-size: 4.125rem;
+    line-height: 0.9375rem;
+    margin: 40px 0 40px;
   }
 }
 #history > div #history-first > div h4 {
