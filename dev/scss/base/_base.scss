@@ -2,8 +2,7 @@
     Base
 ============= */
 body{
-    background-color: $bgyellow;
-
+    background-image: radial-gradient(circle, #f5e9c8, #ffe2c8, #ffdbce, #ffd6d8, #ffd4e4, #fcd6ed, #f6d8f6, #eedbfe, #e6e0ff, #e0e4fe, #dee7fb, #dfeaf7);
     ul{
         margin: 0;
         padding: 0;
@@ -11,14 +10,5 @@ body{
         li{
             list-style: none;
         }
-    }
-    
-    background-color: linear-gradient(to bottom,
-    desaturate(lighten(#db38b5, 30%), 30%),
-    desaturate(lighten(#01b3e3, 30%), 30%),
-    desaturate(lighten(#25ce7b, 30%), 30%),
-    desaturate(lighten(#fdc741, 30%), 30%),
-    desaturate(lighten(#ff6b01, 30%), 30%),
-    desaturate(lighten(#fc4236, 30%), 30%)
-);
+    }   
 }

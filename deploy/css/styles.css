@@ -323,8 +323,7 @@ template {
     Base
 ============= */
 body {
-  background-color: rgba(233, 193, 50, 0.1764705882);
-  background-color: linear-gradient(to bottom, #e6c6df, #92d8eb, #afddc6, #f9f1de, #f0c7a9, #f7d6d4);
+  background-image: radial-gradient(circle, #f5e9c8, #ffe2c8, #ffdbce, #ffd6d8, #ffd4e4, #fcd6ed, #f6d8f6, #eedbfe, #e6e0ff, #e0e4fe, #dee7fb, #dfeaf7);
 }
 body ul {
   margin: 0;
