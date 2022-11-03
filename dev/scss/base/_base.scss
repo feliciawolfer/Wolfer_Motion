@@ -1,14 +1,7 @@
 /* =============
     Base
 ============= */
-body{
-    background-image: radial-gradient(circle, #f5e9c8, #ffe2c8, #ffdbce, #ffd6d8, #ffd4e4, #fcd6ed, #f6d8f6, #eedbfe, #e6e0ff, #e0e4fe, #dee7fb, #dfeaf7);
-    ul{
-        margin: 0;
-        padding: 0;
-    
-        li{
-            list-style: none;
-        }
-    }   
+
+.hide{
+    display: none;
 }
