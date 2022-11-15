@@ -412,14 +412,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/video\/logoReveal.mov" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/video\/logoReveal.mov",
-      "oF" : 0
     }
   },
   "hooks" : [
