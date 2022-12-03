@@ -6,6 +6,49 @@ import { CustomEase } from "gsap/CustomEase";
 
 gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin,CustomEase);
 
+
+function uAnimation(){
+    var tl = gsap.timeline();
+    
+    return tl;
+}
+function hAnimation(){
+    var tl = gsap.timeline();
+
+    return tl;
+}
+function lAnimation(){
+    var tl = gsap.timeline();
+
+    return tl;
+}
+function iAnimation(){
+    var tl = gsap.timeline();
+
+    return tl;
+}
+function vAnimation(){
+    var tl = gsap.timeline();
+
+    return tl;
+}
+function eAnimation(){
+    var tl = gsap.timeline();
+
+    return tl;
+}
+
+var mainTl = gsap.timeline();
+mainTl.add(uAnimation())
+    .add(hAnimation())
+    .add(lAnimation())
+    .add(iAnimation())
+    .add(vAnimation())
+    .add(eAnimation());
+
+
+
+
 // gsap.set("#t-down",{scaleY:0.5});
 // gsap.set("#t-cross",{transformOrigin: "center"});
 // gsap.set("#i",{transformOrigin: "center bottom"});
